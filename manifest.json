@@ -1,0 +1,21 @@
+{
+  "name": "ঐতিহ্যের সাতক্ষীরা",
+  "short_name": "সাতক্ষীরা",
+  "description": "সাতক্ষীরার ঐতিহ্য ও প্রকৃতির এক মায়াবী মেলবন্ধন",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

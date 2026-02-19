@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>ঐতিহ্যের সাতক্ষীরা | ইয়াছিন কবির</title>
+    <meta name="description" content="সাতক্ষীরার ঐতিহ্য, প্রকৃতি এবং মায়াবী সৌন্দর্যের এক ডিজিটাল আর্কাইভ। সুন্দরবন ও কালিন্দীর তীরের গল্প।">
+    <meta name="keywords" content="সাতক্ষীরা, সাতক্ষীরার ঐতিহ্য, সুন্দরবন, ইয়াছিন কবির, ঐতিহ্যের সাতক্ষীরা, Satkhira, Traditional Satkhira">
+    <meta name="author" content="ইয়াছিন কবির">
+
+    <meta property="og:title" content="ঐতিহ্যের সাতক্ষীরা - ইয়াছিন কবির">
+    <meta property="og:description" content="সাতক্ষীরার মায়াবী ঐতিহ্য ও প্রকৃতির মেলবন্ধন দেখুন।">
+    <meta property="og:image" content="thumb.jpg"> <meta property="og:url" content="https://your-site-link.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FFD700">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,12 +30,14 @@
 
     <div class="audio-control" id="audio-toggle">
         <span id="audio-icon">🔇</span>
-        <audio id="bg-audio" loop><source src="nature.mp3" type="audio/mpeg"></audio>
+        <audio id="bg-audio" preload="none" loop><source src="nature.mp3" type="audio/mpeg"></audio>
     </div>
 
     <section class="hero">
         <div class="overlay"></div>
-        <video autoplay loop muted playsinline class="back-video"><source src="video.mp4" type="video/mp4"></video>
+        <video autoplay loop muted playsinline preload="auto" class="back-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
         <div class="hero-content">
             <h1 class="title">সাতক্ষীরা</h1>
             <p class="subtitle">ঐতিহ্য ও প্রকৃতির এক মায়াবী মেলবন্ধন</p>
@@ -30,32 +46,41 @@
 
     <section class="info-section">
         <div class="container">
-            <div class="info-box fade-in">
+            <article class="info-box fade-in">
                 <span class="ornament">✿</span>
                 <h2>সাতঘরিয়ার প্রাচীন আখ্যান</h2>
-                <p>সাতক্ষীরার হৃদয়ে আজও প্রতিধ্বনিত হয় তার আদি নাম ‘সাতঘরিয়া’। জনশ্রুতি আছে, এই জনপদে সাতটি অভিজাত পরিবারের সুনিপুণ পদচারণায় গড়ে উঠেছিল এক সমৃদ্ধ জনপদ। মোগল সম্রাট আকবরের সেনাপতি মানসিংহের পদস্পর্শে ধন্য এই মাটি। ব্রিটিশ বিরোধী আন্দোলনের প্রতিটি বাঁকে এই জনপদের সন্তানদের বীরত্বগাথা সাতক্ষীরাকে করেছে অনন্য ও মহিমান্বিত।</p>
-            </div>
-            <div class="info-box fade-in">
+                <p>সাতক্ষীরার হৃদয়ে আজও প্রতিধ্বনিত হয় তার আদি নাম ‘সাতঘরিয়া’। জনশ্রুতি আছে, এই জনপদে সাতটি অভিজাত পরিবারের সুনিপুণ পদচারণায় গড়ে উঠেছিল এক সমৃদ্ধ জনপদ।</p>
+            </article>
+            <article class="info-box fade-in">
                 <span class="ornament">✿</span>
                 <h2>মায়াবী ঐতিহ্য ও লোকজ ধারা</h2>
-                <p>সুন্দরবনের গহীন অরণ্য আর কালিন্দী নদীর জলরাশি সাতক্ষীরাকে দিয়েছে এক মায়াবী রূপ। এখানকার রূপালি চিংড়ি, খাঁটি মধু আর গোলপাতার ঘ্রাণে মিশে আছে শ্রমজীবী মানুষের জীবনযুদ্ধ। নিপুণ শিল্পীর হাতের ছোঁয়ায় গড়ে ওঠা নকশী কাঁথা আর মাটির হাড়ির লোকজ মোটিফ এখানকার প্রাণভোমরা। সাতক্ষীরার ঐতিহ্যবাহী গুড়ের সন্দেশের মাধুর্য কেবল স্বাদে নয়, বরং এ অঞ্চলের মানুষের আতিথেয়তার প্রতীক।</p>
-            </div>
+                <p>সুন্দরবনের গহীন অরণ্য আর কালিন্দী নদীর জলরাশি সাতক্ষীরাকে দিয়েছে এক মায়াবী রূপ। এখানকার রূপালি চিংড়ি, খাঁটি মধু আর গোলপাতার ঘ্রাণে মিশে আছে শ্রমজীবী মানুষের জীবনযুদ্ধ।</p>
+            </article>
         </div>
     </section>
 
-    <section class="full-gallery" id="dynamic-gallery">
+    <section class="full-gallery">
         <h2 class="section-title fade-in">সাতক্ষীরার রত্নভাণ্ডার</h2>
         <div id="gallery-loader" style="text-align:center; color:gold;">ঐতিহ্য লোড হচ্ছে...</div>
+        <div id="dynamic-gallery" class="gallery-container">
+            </div>
     </section>
 
     <footer class="main-footer">
         <div class="footer-content">
-            <h3>ইয়াছিন কবির</h3>
+            <h3>ইয়াছিন কবির</h3>
             <p>সাতক্ষীরা, বাংলাদেশ</p>
             <p class="copyright">© 2026 Cinematic Satkhira. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
 </body>
 </html>
